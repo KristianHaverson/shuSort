@@ -1,0 +1,64 @@
+calib_P_0_gain: 1
+calib_P_0_offset: 0
+calib_P_1_gain: 1
+calib_P_1_offset: 0
+calib_P_2_gain: 1
+calib_P_2_offset: 0
+calib_P_3_gain: 1
+calib_P_3_offset: 0
+calib_P_4_gain: 1
+calib_P_4_offset: 0
+calib_P_5_gain: 1
+calib_P_5_offset: 0
+calib_P_6_gain: 1
+calib_P_6_offset: 0
+calib_P_7_gain: 1
+calib_P_7_offset: 0
+calib_P_8_gain: 1
+calib_P_8_offset: 77
+calib_P_9_gain: 77
+calib_P_9_offset: 77
+calib_P_10_gain: 77
+calib_P_10_offset:770
+calib_P_11_gain: 77
+calib_P_11_offset:770
+calib_P_12_gain: 77
+calib_P_12_offset:770
+calib_P_13_gain: 77
+calib_P_13_offset:770
+calib_P_14_gain: 77
+calib_P_14_offset:770
+calib_P_15_gain: 77
+calib_P_15_offset:770
+calib_N_0_gain: 77
+calib_N_0_offset: 77
+calib_N_1_gain: 77
+calib_N_1_offset: 77
+calib_N_2_gain: 77
+calib_N_2_offset: 77
+calib_N_3_gain: 77
+calib_N_3_offset: 77
+calib_N_4_gain: 77
+calib_N_4_offset: 77
+calib_N_5_gain: 1
+calib_N_5_offset: 0
+calib_N_6_gain: 1
+calib_N_6_offset: 0
+calib_N_7_gain: 1
+calib_N_7_offset: 0
+calib_N_8_gain: 1
+calib_N_8_offset: 0
+calib_N_9_gain: 1
+calib_N_9_offset: 0
+calib_N_10_gain: 1
+calib_N_10_offset: 0
+calib_N_11_gain: 1
+calib_N_11_offset: 0
+calib_N_12_gain: 1
+calib_N_12_offset: 0
+calib_N_13_gain: 1
+calib_N_13_offset: 0
+calib_N_14_gain: 1
+calib_N_14_offset: 0
+calib_N_15_gain: 1
+calib_N_15_offset: 0

@@ -1,0 +1,6 @@
+# experimental stuff
+pressureMbar:100.0
+
+numberOfDetectors:1
+numberOfStrips_P:16
+numberOfStrips_N:16
