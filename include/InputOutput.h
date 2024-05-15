@@ -48,8 +48,8 @@ public:
  //   void createFolder(std::string dirName);
 private:
 
-    TTree* tree =nullptr;
-    TFile* file =nullptr;
+    TTree* tree = nullptr;
+    TFile* file = nullptr;
    // TDirectory* folder =nullptr;
 
 

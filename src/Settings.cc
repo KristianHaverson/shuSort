@@ -9,6 +9,8 @@ Settings::Settings(const std::string& filename) {
 
 
     config = new TEnv(filename.data());
+
+    
     getValues();
     dumpValues();
 }
@@ -36,8 +38,8 @@ void Settings::dumpValues(){
     std::cout << "==========================\n";
     std::cout << "pressure: " << pressureMbar << std::endl;
     std::cout << "numberOfDetectors: " << numberOfDetectors << std::endl;
-    std::cout << "numberOfStrips_N: " << numberOfStrips_P << std::endl;
-    std::cout << "numberOfStrips_N: " << numberOfStrips_P << std::endl;
+    std::cout << "numberOfStrips_P: " << numberOfStrips_P << std::endl;
+    std::cout << "numberOfStrips_N: " << numberOfStrips_N << std::endl;
     std::cout << "==========================\n";
 
 
