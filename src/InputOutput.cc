@@ -22,14 +22,14 @@ void InputOutput::readTree(const std::string& fileName, const std::string& treeN
         std::cerr << "Error: Failed to open file " << fileName << std::endl;
         exit(0);
     }
-
+    
     tree = dynamic_cast<TTree*>(file->Get(treeName.c_str()));
     if (!tree) {
         std::cerr << "Error: Failed to retrieve tree " << treeName << " from file " << fileName << std::endl;
         exit(0);
     }
 
-    FLAG_readFlag=true;
+    FLAG_readFlag = true;
 
 }
 

@@ -13,8 +13,6 @@ public:
     CommandLineParser(int argc, char* argv[]);
     ~CommandLineParser(); 
 
-
-
     const std::string& GetInputFilename() const { return inputFileName; }
     const std::string& GetSettingsFilename() const { return settingsFileName; }
     const std::pair<std::string*, bool>& GetParsedInfo(std::string) const;

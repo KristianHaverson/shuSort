@@ -19,7 +19,9 @@ CommandLineParser::CommandLineParser(int argc, char* argv[]) {
     }
 
     if (!optionMap.at("-s").second) {
-        std::cout<<"Settings file must be provided"<<std::endl;
+        //std::cout<<"Settings file must be provided"<<std::endl;
+        PrintHelp();
+        
         exit(0);
     }
 
@@ -30,12 +32,19 @@ CommandLineParser::CommandLineParser(int argc, char* argv[]) {
 CommandLineParser::~CommandLineParser() {}
 
 void CommandLineParser::ParseArguments(int argc, char* argv[]) {
+
+
     for (int i = 1; i < argc; ++i) {
+
         std::string arg = argv[i];
+
         if (optionMap.find(arg) != optionMap.end()) {
+
             if (i + 1 < argc) {
+                
                 *(optionMap[arg].first) = argv[++i];
                 optionMap[arg].second = true; // Flag set
+
             } else {
                 std::cerr << "Error: " << arg << " option requires a value." << std::endl;
             }
@@ -80,8 +89,8 @@ void CommandLineParser::PrintPropertiesSet() const {
 void CommandLineParser::PrintHelp() const {
     std::cout << "Usage:\n";
     std::cout << "  -i <filename>    Input filename (required)\n";
-    std::cout << "  -s <filename>    Settings filename\n";
-    std::cout << "  -c <filename>    Calibration filename\n";
+    std::cout << "  -s <filename>    Settings filename (required)\n";
+    std::cout << "  -c <filename>    Calibration filename (optional) \n";
     std::cout << "  -h               Show help\n";
 }
 
